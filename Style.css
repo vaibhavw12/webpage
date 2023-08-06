@@ -1,10 +1,15 @@
 header {
     background-color: peachpuff;
 }
+.flex_container1{
+    display: flex;
+    
+    
+}
 #left_1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-top: 100px;
-    padding-left: 100px;
+    margin: auto;
+    
 }
 #left_1 > h2{
     font-size: 30px;
@@ -15,10 +20,7 @@ header {
     
 }
 #right_1{
-    height: auto;
-    width: auto;
-    text-align: right;
-    padding-right: 100px;
+   margin: auto;  
 }
 div > span{
     color: aliceblue;
@@ -47,23 +49,25 @@ button{
     font-size: medium;
     font-weight: 500;
 }
+.flex_container2{
+    display: flex;
+}
 footer {
     background-color: #282828;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+#left_2{
+    margin: auto;
+}
 #left_2 > ul{
-    color: #FFF;
-    padding-left: 100px;
-    padding-top: 100px;
-    
+    color: #FFF;  
 }
 li{
     height: 30px;
     font-weight: 400;
 }
 #right_2{
-    text-align: right;
     color: #FFF;
     font-weight: 400;
-    padding-right: 100px;
+    margin: auto;
 }
